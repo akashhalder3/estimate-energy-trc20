@@ -1,0 +1,28 @@
+{
+  "name": "estimate",
+  "version": "1.0.0",
+  "description": "getting energy and bandwidth of TRC20 token transfer nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashhalder3/estimate-energy-trc20.git"
+  },
+  "keywords": [
+    "trc20"
+  ],
+  "author": "akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashhalder3/estimate-energy-trc20/issues"
+  },
+  "homepage": "https://github.com/akashhalder3/estimate-energy-trc20#readme",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "ethers": "^4.0.47",
+    "tronweb": "^5.3.0"
+  }
+}
